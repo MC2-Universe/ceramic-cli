@@ -1,0 +1,8 @@
+{
+    "name": "Ceramic Daemon",
+    "description": "A Ceramic and IPFS Daemon",
+    "repository": "https://github.com/MC2-Universe/ceramic-cli",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["node", "express", "ceramic"]
+  }
+  
