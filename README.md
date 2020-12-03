@@ -21,6 +21,9 @@ To start an instance of the Ceramic daemon, make sure you have ipfs running loca
 $ ceramic daemon
 ```
 
+## Deployment
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/MC2-Universe/ceramic-cli)
+
 ## Development
 
 

@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage",
-    "build": "../../node_modules/.bin/tsc -p tsconfig.json",
+    "build": "./node_modules/.bin/tsc -p tsconfig.json",
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
     "lint": "./node_modules/.bin/eslint ./src --ext .js,.jsx,.ts,.tsx",
@@ -54,6 +54,7 @@
     "ipfs-http-client": "^48.1.1",
     "key-did-provider-ed25519": "^1.0.0",
     "multiformats": "^3.0.3",
+    "typescript": "^4.1.2",
     "uint8arrays": "^1.1.0"
   },
   "devDependencies": {
@@ -76,5 +77,8 @@
   "peerDependencies": {
     "@zondax/filecoin-signing-tools": "^0.13.0"
   },
-  "gitHead": "c58eb9659f5fdd976aca2db6465619c20ba30ff9"
+  "gitHead": "c58eb9659f5fdd976aca2db6465619c20ba30ff9",
+  "engines": {
+    "node": ">=12"
+  }
 }
